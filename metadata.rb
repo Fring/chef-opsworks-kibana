@@ -6,6 +6,7 @@ description      'Kibana OpsWorks'
 long_description 'Kibana OpsWorks'
 version          '0.1.0'
 
+depends 'yum-epel'
 depends 'opsworks_utils'
 depends 'ohai'
 depends 'kibana'
