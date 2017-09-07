@@ -1,4 +1,4 @@
 source 'https://api.berkshelf.com'
 
-cookbook 'chamber-kibana', git: 'git://github.com/fring/chamber-kibana.git', tag '0.0.1'
+cookbook 'kibana', '~> 1.3.0', git: 'git://github.com/Fring/chef-kibana.git'
 cookbook 'opsworks_utils', '~> 0.1.0', git: 'git://github.com/Fring/chef-opsworks-utils.git'
